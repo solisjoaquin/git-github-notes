@@ -30,3 +30,15 @@ Site on home directory and connect the private key
 ```
 ssh-add ~/ssh/id_rsa
 ```
+
+# Go to setting on Github
+
+* Click on SSH and GPG keys and add a new key
+* Go to repo and clone it but select the SSH option
+* Copy that SSH-url
+
+# Go to local repo and open the terminal 
+
+```
+git remote set-url origin (paste-the-github-SSH-text)
+```
