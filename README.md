@@ -62,13 +62,23 @@ If we only use git commit without a message, a new editor will be open. This cod
 * write the commit message 
 * ESC + Shift + ZZ to scape
 
+## Return to a specific commit
+* hard: delete the commit until the specific commit
+```
+git reset #paste_commit_code --hard
+```
+## Return to an specific commit but with the chance to return to the lastest
+return to a specific commit
+```
+git checkout #commit_code filename.txt
+```
+return again to the lastest version
+```
+git checkout master filename.txt
+```
+
 ## See the content of a file
 ```
 cat filename.txt
 ```
-## Branches
 
-Create branch
-```
-
-```
